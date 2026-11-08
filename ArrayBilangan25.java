@@ -3,11 +3,7 @@ import java.util.Arrays;
 public class ArrayBilangan25 {
     public static void main(String[] args) {
         // Langkah 2 & 3: Deklarasi dan inisialisasi array
-        int[] bil = new int[4];
-        bil[0] = 5;
-        bil[1] = 13;
-        bil[2] = -7;
-        bil[3] = 17;
+        int[] bil = {5, 13, -7, 17};
 
         // Langkah 4: Menampilkan elemen menggunakan perulangan for
         for (int i = 0; i < bil.length; i++) {
